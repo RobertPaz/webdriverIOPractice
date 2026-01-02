@@ -10,4 +10,8 @@ module.exports = class Page {
     open (path) {
         return browser.url(`https://the-internet.herokuapp.com/${path}`)
     }
+
+    async wrongFuNction(){
+        var WroNgVariable = 'wrong var'
+    }
 }
