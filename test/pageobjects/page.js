@@ -12,6 +12,6 @@ module.exports = class Page {
     }
 
     async wrongFunction(){
-        var WroNgVariable = 'wrong var'
+        var wrongVariable = 'wrong var'
     }
 }
