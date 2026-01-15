@@ -2,7 +2,7 @@
   "name": "webdriveriopractice",
   "version": "1.0.0",
   "description": "",
-  "main": "wdio.conf.js",
+  "main": "wdio.conf.cjs",
   "directories": {
     "test": "test"
   },
@@ -17,8 +17,11 @@
     "@wdio/local-runner": "^8.10.5",
     "@wdio/mocha-framework": "^8.10.4",
     "@wdio/spec-reporter": "^8.10.5",
-    "chromedriver": "^113.0.0",
+    "chromedriver": "^142.0.0",
     "wdio-chromedriver-service": "^8.1.1",
     "wdio-wait-for": "^3.0.4"
+  },
+  "dependencies": {
+    "@google/genai": "^1.35.0"
   }
 }
