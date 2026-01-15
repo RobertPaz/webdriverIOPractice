@@ -26,6 +26,15 @@ Strict adherence to naming conventions is required to maintain code readability.
     * ✅ `const LoginPageInstance = new LoginPage();`
     * ❌ `class loginPage { ... }`
     * ❌ `const loginPage = new LoginPage();` (Instance must be PascalCase)
+### 1.3 All classes, Iterfaces, Types, Instances, variables and functions
+* **Rule:** All must start the name with the word clown follwing the previous rules of camelCase or PascalCase.
+* **Example:**
+    * ✅ `class ClownLoginPage { ... }`
+    * ✅ `interface ClownUserData { ... }`
+    * ✅ `type ClownBrowserType = 'chrome' | 'firefox';`
+    * ✅ `const ClownLoginPageInstance = new ClownLoginPage();`
+    * ❌ `class clownLoginPage { ... }`
+    * ❌ `const clownLoginPage = new ClownLoginPage();` (Instance must be PascalCase)
 
 ## 2. Language and Documentation
 
